@@ -18,6 +18,7 @@
     background-color: var(--caloryCard);
     color: white;
     gap: 2rem;
+    padding:1rem;
 }
 .plan:nth-child(2){
     background: var(--planCard);
