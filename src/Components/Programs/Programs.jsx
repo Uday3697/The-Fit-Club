@@ -7,9 +7,9 @@ const Programs = () => {
   return (
     <div className="programs" id='programs'>
         <div className="programs-header">
-            <span className='stroke-text'>Explore Our</span>
+            <span className='stroke-text'>Explore  Our</span>
             <span>Programs</span>
-            <span className='stroke-text'>to shape</span>
+            <span className='stroke-text'>to  shape</span>
         </div>
         <div className="program-categories">
            {programsData.map((program)=>(
