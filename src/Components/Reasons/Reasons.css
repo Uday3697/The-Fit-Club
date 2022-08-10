@@ -1,7 +1,7 @@
 .Reasons{
     padding: 0.2rem;
     display: flex;
-    grid-template: 2rem;
+    gap: 2rem;
 }
 .left-r{
     flex: 1 1;
@@ -28,10 +28,43 @@
     width: 10rem;
     grid-row: 2;
     grid-column: 3/4;
+    height: 11.2rem;
 }
 
 
 
 .right-r{flex: 1 1;
-
+    text-transform: uppercase;
+    gap: 1rem;display: flex;
+    flex-direction: column;
+}
+.right-r>span{
+    font-weight: bold;
+    color: var(--orange);
+}
+.right-r>div{
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.details-r{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.details-r>div{
+    display: flex;
+    font-size: 1rem;
+    gap: 1rem;
+}
+.details-r>div>img{
+    width: 2rem;
+    height: 2rem;
+}
+.partners{
+    display: flex;
+    gap: 1rem;
+}
+.partners>img{
+    width: 2.5rem;
 }
