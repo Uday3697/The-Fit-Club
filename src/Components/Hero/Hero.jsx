@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../Header/Header";
 import "./Hero.css";
 import { motion } from "framer-motion";
-
+import NumberCounter from "number-counter"
 import hero_image from "../../assets/hero_image.png";
 import hero_image_back from "../../assets/hero_image_back.png"
 import Heart from "../../assets/heart.png";
@@ -42,7 +42,9 @@ const Hero = () => {
         </div>
         <div className="figures">
           <div>
-            <span>+140 </span>
+            <span>
+              <NumberCounter end={140} delay='4' prefix="4" />
+            </span>
             <span> expert coachs</span>
           </div>
           <div>
