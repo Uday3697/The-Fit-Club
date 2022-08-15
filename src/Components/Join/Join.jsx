@@ -18,7 +18,7 @@ const Join = () => {
       };
     
   return (
-    <div className="Join" id='join-us'>
+    <div className="join">
         <div className="left-j">
             <hr/>
             <div>
